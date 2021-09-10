@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/feed"
+        android:layout_width="93dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/button"
+        android:backgroundTint="#A27AEC"
+        android:onClick="onFeed"
+        android:text="Feed"
+        android:textColor="#FFFFFF" />
+
+
+    <Button
+        android:id="@+id/clean"
+        android:layout_below="@id/feed"
+        android:onClick="onClean"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:backgroundTint="#759CDF"
+        android:textColor="#FFFFFF"
+        android:layout_margin="5dp"
+        android:background="@drawable/button"
+        android:text="Clean" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_below="@id/clean"
+        android:onClick="onPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        style="@android:style/MediaButton"
+        android:backgroundTint="#7CC1D3"
+        android:background="@drawable/button"
+        android:textColor="#FFFFFF"
+        android:layout_margin="5dp"
+        android:text="Play" />
+
+
+    <ProgressBar
+        android:id="@+id/progressHunger"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignTop="@+id/feed"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="76dp"
+        android:layout_marginRight="18dp"
+        android:layout_toRightOf="@+id/feed" />
+
+    <ProgressBar
+        android:id="@+id/progressClean"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="235dp"
+        android:layout_height="53dp"
+        android:layout_alignTop="@+id/clean"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="15dp"
+        android:layout_toRightOf="@+id/clean" />
+
+
+    <ProgressBar
+        android:id="@+id/progressPlay"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="233dp"
+        android:layout_height="45dp"
+        android:layout_alignTop="@+id/play"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="11dp"
+        android:layout_toRightOf="@+id/play" />
+
+    <ImageView
+        android:id="@+id/mypet"
+        android:layout_width="210dp"
+        android:layout_height="242dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="99dp"
+        android:layout_marginBottom="285dp"
+        android:enabled="false"
+        android:src="@drawable/rabbit" />
+
+    <TextView
+        android:id="@+id/petDialog"
+        style="@style/InputBoxStyle"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="120dp"
+        android:text=" "
+        android:textColor="#4E4375"
+        android:textSize="16dp"
+        android:textStyle="italic">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginLeft="117dp"
+        android:layout_marginTop="139dp"
+        app:srcCompat="@drawable/heart" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="46dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="22dp"
+        app:srcCompat="@drawable/hardtaco1" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="38dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="79dp"
+        app:srcCompat="@drawable/clean" />
+
+
+
+
+</RelativeLayout>

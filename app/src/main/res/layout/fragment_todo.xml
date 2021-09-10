@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".ui.todo.TodoFragment"
+android:orientation="vertical"
+android:gravity="center_horizontal"
+
+android:padding="16dp">
+
+
+
+
+    <ListView
+
+        android:id="@+id/lvTasks"
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+
+        android:outlineSpotShadowColor="#91C0C6"></ListView>
+
+
+  <ImageButton
+      android:id="@+id/newItemButton"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:src="@drawable/book"
+      android:scaleType="centerInside"
+      android:textSize="15dp"
+      android:background="#FFFFFF"
+
+      tools:ignore="HardcodedText" />
+
+
+</LinearLayout>

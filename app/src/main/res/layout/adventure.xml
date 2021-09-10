@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+       android:src="@drawable/king"
+        android:layout_margin="22dp"></ImageView>
+<TextView
+
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:textSize="16dp"
+    android:textStyle="italic"
+    android:text="Hello, kid. Your bravery have attracted my attention. You will get a chance to take an adventure, probably you will get some treasure.
+Click the start button if you have made your decision."
+    style="@style/InputBoxStyle"
+    android:textColor="#4E4375"
+    >
+
+</TextView>
+
+    <LinearLayout
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/start"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_height="50dp"
+            android:layout_width="120dp"
+            android:background="@drawable/button"
+            android:text="Start"
+            android:textColor="#ffffff"></Button>
+
+        <Button
+            android:id="@+id/notnow"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="80dp"
+            android:layout_height="50dp"
+            android:layout_width="120dp"
+            android:background="@drawable/button"
+            android:text="not now"
+            android:textColor="#ffffff"></Button>
+
+        </LinearLayout>
+
+    <TextView
+        android:id="@+id/space1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text=" "></TextView>
+
+    <TextView
+        android:id="@+id/space2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text=" "></TextView>
+
+    <Spinner
+        android:id="@+id/places"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="40dp">
+
+    </Spinner>
+
+</LinearLayout>

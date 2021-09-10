@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E1B8B8"
+    >
+    <VideoView
+        android:id="@+id/mountain_view"
+
+        android:layout_marginTop="200dp"
+        android:layout_width="420dp"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        android:clickable="true"></VideoView>
+
+    <TextView
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fire Mountain"
+        android:gravity="center"
+        android:textColor="#714536"
+        android:textSize="40dp"
+        android:textStyle="italic"
+        ></TextView>
+
+</LinearLayout>

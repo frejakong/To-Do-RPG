@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="left|center_vertical"
+        android:text="Task Title"
+        android:textSize="25sp"
+        android:textColor="#6EBAC3"
+        android:background="#D7D7FB"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Your task title here "
+        android:gravity="center_vertical"
+        android:inputType="text"
+        android:padding="5dip"
+        android:textSize="20sp"
+        style="@style/InputBoxStyle"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:text="Task Content"
+        android:textSize="25sp"
+        android:textColor="#6EBAC3"
+        android:background="#D7D7FB"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etContent"
+        android:layout_width="match_parent"
+        android:hint="Describe what do u need to do :-D"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:padding="5dip"
+        android:textSize="20sp"
+        style="@style/InputBoxStyle"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+
+        <ImageButton
+            android:id="@+id/complete"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="20dp"
+            android:adjustViewBounds="true"
+            android:background="#FFFFFF"
+            android:contentDescription="complete"
+            android:scaleType="fitXY"
+            android:src="@drawable/complete"
+           />
+
+        <ImageButton
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/complete"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@+id/complete"
+            android:adjustViewBounds="true"
+            android:background="#FFFFFF"
+            android:contentDescription="save"
+            android:scaleType="fitXY"
+            android:src="@drawable/save"
+           />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

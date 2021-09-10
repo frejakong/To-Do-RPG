@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#6EBAC3"
+            android:background="#D7D7FB"
+            android:text="Choose something to reward yourself!"
+
+            />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:stretchColumns="1"
+            android:layout_marginTop="40dp"
+
+            >
+
+<TableRow>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+
+        android:layout_margin="6dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/food">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bar"
+        android:layout_margin="6dp">
+
+    </ImageView>
+
+
+
+</TableRow>
+
+
+            <TableRow>
+                <Button
+                    android:id="@+id/food"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Eat some junk food!"
+                    android:textSize="12sp"
+                    android:layout_margin="10dp"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/button"
+                    android:backgroundTint="#C795CD"
+                    ></Button>
+
+
+
+                <Button
+                    android:id="@+id/bar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Go to the bar!"
+                    android:layout_margin="10dp"
+                    android:textSize="10sp"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/button"
+                    android:backgroundTint="#D5C7B2"
+                    ></Button>
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="100dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/nap"
+                    android:layout_margin="6dp"
+                    >
+
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="100dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/games"
+                    android:layout_margin="6dp">
+
+                </ImageView>
+
+
+
+            </TableRow>
+
+
+            <TableRow>
+                <Button
+                    android:id="@+id/nap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Take a nap!"
+                    android:layout_margin="10dp"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/button"
+                    android:backgroundTint="#839AC1"
+                    ></Button>
+
+
+
+                <Button
+                    android:id="@+id/games"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Play video games!"
+                    android:layout_margin="10dp"
+                    android:textSize="10sp"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/button"
+                    android:backgroundTint="#95D1D3"
+                    ></Button>
+            </TableRow>
+
+
+        </TableLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

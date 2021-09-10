@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#A9E3C0"
+    >
+    <VideoView
+        android:id="@+id/forest_view"
+
+        android:layout_marginTop="200dp"
+        android:layout_width="420dp"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        ></VideoView>
+
+    <TextView
+        android:id="@+id/forest_click"
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mysterious Forest"
+        android:gravity="center"
+        android:textColor="#3B8F5D"
+        android:textSize="40dp"
+        android:textStyle="italic"
+        android:clickable="true"
+        ></TextView>
+
+</LinearLayout>
