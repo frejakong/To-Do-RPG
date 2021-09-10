@@ -22,7 +22,7 @@ After the establishment of the player image, each user has the life value, exper
 
 ### **To-do List** 
 
-This function is similar to other to-do apps鈥? users can manage their to-do items. In TO-Do RPG, users can set different categories for different to-do items according to their results. 
+This function is similar to other to-do apps' users can manage their to-do items. In TO-Do RPG, users can set different categories for different to-do items according to their results. 
 
 ### **Reward Mechanism** 
 
